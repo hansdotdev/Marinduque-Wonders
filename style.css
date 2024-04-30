@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url(Mount\ Malindig\ in\ Buenavista\ Marinduque.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.navbar :hover{
+    color: #e89209;
+}
+
+.index .col{
+    flex-basis: 90%;
+    text-align: center;
+}
+.about .col{
+    flex-basis: 90%;
+    text-align: center;
+}
+h1{
+    color: #e89209;
+    font-size: 60px;
+    margin-top: -10px;
+    text-align: left;
+}
+h2{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 10px;
+    text-align: left;
+}
+p{
+    color: #ffffff;
+    font-size: 12px;
+    width: 87%;
+    opacity: 80%;
+    text-align: left;
+    margin-left: 5px;
+}
+h3{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 5px;
+}
+h4{
+    color:#e89209;
+    margin-left: 25px;
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: Times New Roman;
+    font-style: italic;
+    text-align: left;
+}
+.p p{
+    font-size: 12px;
+    margin-left: 25px;
+    margin-top: 6px;
+    width: 85%;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    text-align: left;
+}
+.index .card1{
+    background-image: url(poctoy.png);
+    margin-top: 15px;
+}
+.index .card2{
+    background-image: url(marinduque.png);
+    margin-top: 15px;
+}.card3{
+    background-image: url(gaspar.png);
+    margin-top: 15px;
+}.card4{
+    background-image: url(mt.\ malindig.jpg);
+    margin-top: 15px;
+}
+.index .card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+    margin-left: 0px;
+}
+footer h3{
+    color: #fff;
+    opacity: 40%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.about .card{
+    margin-top: 50px;
+}
+.about .card.card1{
+    background-image: url(erin.jpg);
+}
+.about .card.card2{
+    background-image: url(hans1.jpg);
+}
+
+.about h5{
+    text-align: center;
+    padding-top: 200px;
+}
+.about p{
+    color: #ffffff;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 4px;
+}
+.about h2{
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+.about .Headings h1{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 10px;
+
+
+}
